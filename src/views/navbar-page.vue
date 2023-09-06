@@ -1,10 +1,10 @@
-<template>
-    <slot>
+<template >
+    <slot >
         <div id="openNav" class="nav-open" @click="toggleNavbar">
       <i class="bi bi-list text-white text-lg"></i>
     </div>
   
-    <div class="navbar-container flex" id="navNav">
+    <div class="navbar-container flex font-changa" id="navNav">
       <div class="emptynabar-section w-9/12"></div>
       <div class="navbar-content w-3/12 z-30 h-full">
         <div
@@ -13,8 +13,8 @@
         >
           <i class="bi bi-x-lg nav-close" id="closeNav"></i>
   
-          <h1 class="text-center text-3xl text-black-900 pt-3 font-bold">
-            H<i class="bi bi-search text-indigo-500 text-3xl"></i>TELS
+          <h1 class="text-center text-5xl text-black-900 pt-3 font-bold">
+            H<i class="bi bi-search text-indigo-500 text-4xl"></i>TELS
           </h1>
           <p class="text-center text-black-500 text-sm pb-9">www.hotels.com</p>
           <hr class="mb-2 custom-hr mx-auto w-4/5 border-gray-300 pb-4" />

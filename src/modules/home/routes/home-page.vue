@@ -1,14 +1,14 @@
 <template>
-    <div class="container flex">
+    <div class="container flex font-changa">
       <div class="title-form-img w-9/12 flex mt-12">
         <div class="title-and-form flex-1 pr-10 w-4/12">
           <h2
-            class="text-gray-700 font-bold font-changa text-base mt-8 text-right title-1"
+            class="text-gray-700 font-bold  text-base mt-8 text-right title-1"
           >
             عروض و صفقات بأسعار
           </h2>
           <h1
-            class="text-indigo-600 text-[58px] font-bold font-serif text-right mt-[-5px] title-2"
+            class="text-indigo-600 text-[58px] font-bold  text-right mt-[-5px] title-2"
           >
             لا تقبل المنافسة
           </h1>
@@ -73,11 +73,11 @@
       </div>
     </div>
   
-    <div class="info-container w-8/12 mt-9 bg-gray-100 rounded-3xl ml-[115px]">
+    <div class="info-container w-8/12 mt-9 bg-gray-100 rounded-3xl ml-[115px] font-changa">
       <div class="info text-right flex flex-wrap py-4 pr-12 items-end pb-3">
         <div class="info-item w-4/12 flex items-center justify-end py-2">
           <div class="info-title text-base mr-2">
-            <h3 class="info-item-title text-base">جودة عالية</h3>
+            <h3 class="info-item-title text-base font-bold">جودة عالية</h3>
             <span class="info-item-sub-title text-sm">
               نوفر الفنادق الأعلى تقييماً
             </span>
@@ -91,7 +91,7 @@
   
         <div class="info-item w-4/12 flex items-center justify-end py-2">
           <div class="info-title text-base mr-2">
-            <h3 class="info-item-title text-base">خيارات متعددة</h3>
+            <h3 class="info-item-title text-base font-bold">خيارات متعددة</h3>
             <span class="info-item-sub-title text-sm">
               ابحث عن فندقك المثالي
             </span>
@@ -105,7 +105,7 @@
   
         <div class="info-item w-4/12 flex items-center justify-end py-2">
           <div class="info-title text-base mr-2">
-            <h3 class="info-item-title text-base">أفضل الأسعار</h3>
+            <h3 class="info-item-title text-base font-bold">أفضل الأسعار</h3>
             <span class="info-item-sub-title text-sm">
               أسعارنا لا تقبل المنافسة
             </span>
@@ -119,7 +119,7 @@
   
         <div class="info-item w-4/12 flex items-center justify-end pt-10 pb-2">
           <div class="info-title text-base mr-2">
-            <h3 class="info-item-title text-base">موقع مركزي</h3>
+            <h3 class="info-item-title text-base font-bold">موقع مركزي</h3>
             <span class="info-item-sub-title text-sm">
               فنادق بمواقع إستراتيجية
             </span>
@@ -133,7 +133,7 @@
   
         <div class="info-item w-4/12 flex items-center justify-end pt-10 pb-2">
           <div class="info-title text-base mr-2">
-            <h3 class="info-item-title text-base">الدعم التقني</h3>
+            <h3 class="info-item-title text-base font-bold">الدعم التقني</h3>
             <span class="info-item-sub-title text-sm">
               مساعدة في أي وقت 24/7
             </span>
@@ -147,7 +147,7 @@
   
         <div class="info-item w-4/12 flex items-center justify-end pt-10 pb-2">
           <div class="info-title text-base mr-2">
-            <h3 class="info-item-title text-base">حجز سهل وسريع</h3>
+            <h3 class="info-item-title text-base font-bold">حجز سهل وسريع</h3>
             <span class="info-item-sub-title text-sm">
               احجز بكل سهولة. تأكيد فوري
             </span>
