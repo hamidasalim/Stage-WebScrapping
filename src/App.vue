@@ -7,6 +7,7 @@ const { isHydrating } = storeToRefs(appStore)
 </script>
 
 <template>
+  <NavbarView />
   <div v-if="isHydrating" class="fixed z-50">Loading</div>
   <router-view v-else-if="!isHydrating"></router-view>
 </template>
